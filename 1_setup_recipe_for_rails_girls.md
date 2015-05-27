@@ -2,21 +2,21 @@
 
 Thời gian chế biến: 5 phút chủ động / 15 - 30 phút thụ động
 
-Để xây dựng ứng dụng và những thứ khác với Ruby on Rails, chúng ta cần cài đặt mộ số phần mềm và môi trường làm việc cho máy tính của bạn.
+Để xây dựng ứng dụng và những thứ khác với Ruby on Rails, chúng ta cần cài đặt một số phần mềm và môi trường làm việc cho máy tính của bạn.
 
-Follow the instructions for your operating system. If you run into any problems, don’t panic. Inform us at the event and we can solve it together.
+Hãy thực hiện theo các hướng dẫn cho hệ điều hành của bạn. Đừng sợ nếu bạn gặp phải bất cứ trở ngại nào. Hãy báo cho chúng tôi biết (tại sự kiện) để chúng ta có thể cùng nhau giải quyết.
 
-
-- Setup for OS X
-- Setup for Windows
-- Setup for Linux
-- Alternative Installment for all OS
-- Using a Cloud Service - No Installation Required
+- Cài đặt cho OS X
+- Cài đặt cho Windows
+- Cài đặt cho Linux
+- Giái pháp cài đặt thay thế cho tất cả các OS
+- Sử dụng một Dịch-vụ Đám-mây (Cloud Service) - Không cần cài đặt
 
 ## Cài đặt cho OS X
 
 ### 1. Kiểm tra phiên bản hệ điều hành
 
+Nhấn vào trình-đơn
 Click the Apple menu and choose About this Mac.
 
 ![Apple menu](http://guides.railsgirls.com/images/1.png)
