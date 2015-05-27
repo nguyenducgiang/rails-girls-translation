@@ -1,6 +1,6 @@
 # Công thức cài đặt cho Rails Girls
 
-Thời gian chế biến: 5 phút chủ động / 15 - 30 phút thụ động
+*Thời gian chế biến: 5 phút chủ động / 15 - 30 phút thụ động*
 
 Để xây dựng ứng dụng và những thứ khác với Ruby on Rails, chúng ta cần cài đặt một số phần mềm và môi trường làm việc cho máy tính của bạn.
 
@@ -10,23 +10,21 @@ Hãy thực hiện theo các hướng dẫn cho hệ điều hành của bạn. 
 - Cài đặt cho Windows
 - Cài đặt cho Linux
 - Giái pháp cài đặt thay thế cho tất cả các OS
-- Sử dụng một Dịch-vụ Đám-mây (Cloud Service) - Không cần cài đặt
+- Sử dụng một Dịch-vụ Đám-mây - Không cần cài đặt
 
 ## Cài đặt cho OS X
 
-### 1. Kiểm tra phiên bản hệ điều hành
+### 1. Kiểm tra phiên bản hệ điều hành.
 
-Nhấn vào trình-đơn
-Click the Apple menu and choose About this Mac.
+Nhấn vào trình-đơn Apple và chọn *About this Mac*.
 
 ![Apple menu](http://guides.railsgirls.com/images/1.png)
 
+### 2. Trong cửa sổ hiện ra bạn sẽ thấy phiên bản của hệ điều hành.
 
-2. In the window you will find the version of your operating system.
+Nếu phiên bản của bạn bắt đầu với 10.6, 10.7, 10.8, 10.9 hoặc 10.10, hãy làm theo hướng dẫn này. Ngược lại, chúng tôi có thể cài đặt giúp bạn tại sự kiện.
 
-If your version number starts with 10.6, 10.7, 10.8, 10.9 or 10.10 this guide is for you. If it’s something else, we can setup your machine at the event.
-
-About this Mac dialog
+![About this Mac dialog](http://guides.railsgirls.com/images/2.png)
 
 3a. If your OS X version is 10.9 or higher:
 
