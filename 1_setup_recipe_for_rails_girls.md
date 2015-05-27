@@ -1,12 +1,11 @@
-# Setup recipe for Rails Girls
-
 # Công thức cài đặt cho Rails Girls
 
 Cooking time: 5min active / 15-30min passive
 
-To build apps and other things with Ruby on Rails, we need to setup some software and the developer environment for your computer.
+Để xây dựng ứng dụng và những thứ khác với Ruby on Rails, chúng ta cần cài đặt mộ số phần mềm và môi trường làm việc cho máy tính của bạn.
 
 Follow the instructions for your operating system. If you run into any problems, don’t panic. Inform us at the event and we can solve it together.
+
 
 - Setup for OS X
 - Setup for Windows
@@ -21,7 +20,6 @@ Follow the instructions for your operating system. If you run into any problems,
 Click the Apple menu and choose About this Mac.
 
 ![Apple menu](http://guides.railsgirls.com/images/1.png)
-
 
 
 2. In the window you will find the version of your operating system.
@@ -162,21 +160,30 @@ Setup for Linux
 
 To install the Ruby on Rails development environment you just need to copy the line below for your Linux distribution (Ubuntu or Fedora), paste it in the Terminal and press Enter. Enjoy the text flying on the screen; it will take quite some time. Grabbing a refreshing drink before starting is encouraged.
 
-For Ubuntu:
+Trên Ubuntu:
 
+```sh
 bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+```
+
 If you are going to use RVM installations with gnome-terminal, you’ll probably need to change it’s default options before you can see and use the right Ruby and Rails versions. Find out how: RVM documentation.
 
-For Fedora:
+Trên Fedora:
 
+```sh
 bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh)
-Make sure that all works well by running the application generator command.
+```
 
 Make sure that all works well by running the application generator command.
 
+Make sure that all works well by running the application generator command.
+
+```sh
 rails new railsgirls
 cd railsgirls
 rails server
+```
+
 2. Install a text editor to edit code files
 
 For the workshop we recommend the text editor Sublime Text.
