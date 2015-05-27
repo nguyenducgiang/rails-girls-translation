@@ -1,5 +1,6 @@
 # Summary
 
+* [introduction](README.md)
+* [The How to Guide](0_the_how_to_guide.md)
 * Rails Girls Guide
-   * [The How to Guide](0_the_how_to_guide.md)
 
