@@ -26,7 +26,7 @@ Nếu phiên bản của bạn bắt đầu với 10.6, 10.7, 10.8, 10.9 hoặc 
 
 ![About this Mac dialog](http://guides.railsgirls.com/images/2.png)
 
-3a. If your OS X version is 10.9 or higher:
+### 3a. Nếu phiên bản OS X của bạn là 10.9 hoặc mới hơn:
 
 If your version number starts with 10.9 or 10.10, follow these steps. We are installing homebrew and rbenv.
 
@@ -207,29 +207,31 @@ If you use Internet Explorer, we recommend installing Firefox or Google Chrome.
 
 Open whatbrowser.org and update your browser if you don’t have the latest version.
 
-2. Create a free account
+### 2. Tạo tài khoản miễn phí
 
-Go to https://nitrous.io and signup for free.
+Tới https://nitrous.io và đăng kí miễn phí.
 
-3. Setup a development box / workspace for ruby on rails
+### 3. Setup a development box / workspace for ruby on rails
 
 Login to your nitrous account
 Go to the dashboard by using the green ‘Open dashboard’ button
 Create a nitrous box: pick Ruby/Rails from the templates - everything else can stay as is, but you can change the name of your box if you want to
 It takes a moment until your box is ready
-4. Find and restart your development box
+
+### 4. Find and restart your development box
 
 If you’ve just created your box, you can probably skip these steps - they’re good to know if you login to nitrous again later
 You can always find your nitrous boxes by going to the dashboard or choosing ‘Boxes’ from the top menu
 Pick your box from the list of boxes
 If you haven’t used a box in a while, it might have been shutdown due to inactivity. If you are informed that your box is not running, restart it using the respective button
 When your box is up and running, choose ‘IDE’ in order to start coding
-5. Coding with your development box
 
-On the left hand side, you find a file browser where you can navigate your directories and file
-In the middle, you find the editor where you can modify your files
-At the bottom, you find the terminal where you can run commands
-Everything you need is here in you browser window - you do not need to start an editor or terminal anywhere else
-If your following a guide or tutorial, use the commands for Linux even if you are on a Windows computer - your operating system does not matter, since all commands are run on your development box, which is a Linux machine
-If a guide or tutorial asks you to point your browser to something like http://localhost:3000, go to the ‘Preview’ menu and pick ‘Port 3000’
-If, for example, you’re asked to open http://localhost:3000/posts, please append ‘/posts’ manually to the URL that has been opened
+### 5. Coding with your development box
+
+- On the left hand side, you find a file browser where you can navigate your directories and file
+- In the middle, you find the editor where you can modify your files
+- At the bottom, you find the terminal where you can run commands
+- Everything you need is here in you browser window - you do not need to start an editor or terminal anywhere else
+- If your following a guide or tutorial, use the commands for Linux even if you are on a Windows computer - your operating system does not matter, since all commands are run on your development box, which is a Linux machine
+- If a guide or tutorial asks you to point your browser to something like http://localhost:3000, go to the ‘Preview’ menu and pick ‘Port 3000’
+- If, for example, you’re asked to open http://localhost:3000/posts, please append ‘/posts’ manually to the URL that has been opened
