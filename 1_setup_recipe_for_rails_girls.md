@@ -1,6 +1,6 @@
 # Công thức cài đặt cho Rails Girls
 
-Cooking time: 5min active / 15-30min passive
+Thời gian chế biến: 5 phút chủ động / 15 - 30 phút thụ động
 
 Để xây dựng ứng dụng và những thứ khác với Ruby on Rails, chúng ta cần cài đặt mộ số phần mềm và môi trường làm việc cho máy tính của bạn.
 
