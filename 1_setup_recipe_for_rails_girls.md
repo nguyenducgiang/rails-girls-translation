@@ -80,6 +80,7 @@ gem update rails --no-ri --no-rdoc
 Make sure that all works well by running the application generator command.
 
 rails new railsgirls
+
 4. Install a text editor to edit code files
 
 For the workshop we recommend the text editor Atom.
@@ -87,29 +88,38 @@ For the workshop we recommend the text editor Atom.
 Download Atom and install it
 If you are using Mac OS X 10.7 or older versions, you can use another editor Sublime Text 2.
 
-5. Update your browser
+### 5. Cập nhật trình duyệt
 
-Open whatbrowser.org and update your browser if you don’t have the latest version.
+Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình duyệt của bạn lên phiên bản mới nhất nếu có.
 
-Now you should have a working Ruby on Rails programming setup. Congrats!
+Như vậy là bạn đã thiết lập xong môi trường để làm việc với Ruby on Rails. Xin chúc mừng!
 
 Setup for Windows
 
-1. Install Rails
+## 1. Cài đặt Rails
 
 Download RailsInstaller and run it. Click through the installer using the default options.
 
-Open Command Prompt with Ruby on Rails and run the following command:
+Mở `Command Prompt with Ruby on Rails` và chạy các lệnh sau:
 
+```shell
 rails -v
-If the Rails version is less than 4, update it using a following command:
+```
 
+Nếu phiên bản Rails nhỏ hơn 4, cập nhật nó bằng lệnh sau:
+
+```shell
 gem update rails --no-ri --no-rdoc
+```
+
 Make sure that all works well by running the application generator command.
 
+```shell
 rails new railsgirls
 cd railsgirls
 rails server
+```
+
 Possible errors
 
 Gem::RemoteFetcher error
