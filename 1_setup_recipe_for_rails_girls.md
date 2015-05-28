@@ -28,14 +28,20 @@ Nếu phiên bản của bạn bắt đầu với 10.6, 10.7, 10.8, 10.9 hoặc 
 
 ### 3a. Nếu phiên bản OS X của bạn là 10.9 hoặc mới hơn:
 
-If your version number starts with 10.9 or 10.10, follow these steps. We are installing homebrew and rbenv.
+Nếu phiên bản của bạn bắt đầu bằng 10.9 hoặc 10.10, hãy thực hiện theo các bước dưới đây. Chúng ta sẽ cài đặt homebrew và rbenv
 
-3a1. Install Command line tools on terminal:
+#### 3a1. Cài đặt các công-cụ dòng-lệnh trên terminal:
 
+```shell
 xcode-select --install
-3a2. Install Homebrew:
+```
 
+#### 3a2. Cài đặt [Homebrew](http://brew.sh/):
+
+```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 3a3. Install rbenv:
 
 brew update
