@@ -42,7 +42,7 @@ xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-3a3. Install rbenv:
+#### 3a3. Install rbenv:
 
 brew update
 brew install rbenv rbenv-gem-rehash ruby-build
