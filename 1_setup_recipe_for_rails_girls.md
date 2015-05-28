@@ -114,6 +114,8 @@ Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình du
 
 Như vậy là bạn đã thiết lập xong môi trường để làm việc với Ruby on Rails. Xin chúc mừng!
 
+---
+
 ## Cài đặt cho Windows
 
 ## 1. Cài đặt Rails
@@ -162,15 +164,21 @@ If it is lower than 2.2.3 you will need to manually update it:
 
 First download the ruby-gems-update gem. Move the file to c:\\rubygems-update-2.2.3.gem then run:
 
+```shell
 gem install --local c:\\rubygems-update-2.2.3.gem
 update_rubygems --no-ri --no-rdoc
 gem uninstall rubygems-update -x
+```
+
 Check your version of rubygems
 
+```shell
 gem -v
+```
+
 Make sure it is higher than 2.2.3. Re-run the command that was failing previously.
 
-‘x64_mingw’ is not a valid platform` Error
+### Lỗi ‘x64_mingw’ is not a valid platform`
 
 Sometimes you get the following error when running rails server: 'x64_mingw' is not a valid platform If you experience this error after using the RailsInstaller you have to do a small edit to the file Gemfile:
 
@@ -178,7 +186,7 @@ Look at the bottom of the file. You will probably see something like this as one
 
 After you did that, please use your Command Prompt again and type bundle update.
 
-2. Install a text editor to edit code files
+### 2. Install a text editor to edit code files
 
 For the workshop we recommend the text editor Atom.
 
@@ -190,15 +198,17 @@ If you are using Windows Vista or older versions, you can use another editor Sub
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
-3. Update your browser
+### 3. Cập nhật trình duyệt
 
-If you use Internet Explorer, we recommend installing Firefox or Google Chrome.
+Nếu bạn đang dùng Internet Explorer, chúng tôi khuyến khích bạn cài đặt [Firefox](http://guides.railsgirls.com/install/mozilla.org/firefox) hay [Google Chrome](http://guides.railsgirls.com/install/google.com/chrome).
 
 Open whatbrowser.org and update your browser if you don’t have the latest version.
 
-Setup for Linux
+---
 
-1. Install Rails
+## Cài đặt cho Linux
+
+### 1. Cài đặt Rails
 
 To install the Ruby on Rails development environment you just need to copy the line below for your Linux distribution (Ubuntu or Fedora), paste it in the Terminal and press Enter. Enjoy the text flying on the screen; it will take quite some time. Grabbing a refreshing drink before starting is encouraged.
 
@@ -226,26 +236,33 @@ cd railsgirls
 rails server
 ```
 
-2. Install a text editor to edit code files
+### 2. Install a text editor to edit code files
 
 For the workshop we recommend the text editor Sublime Text.
 
-Download Sublime Text and install it
-3. Update your browser
+Đối với workshop chúng tôi khuyến nghị sử dụng trình soạn thảo Sublime Text.
+
+- [Tải và cài đặt Sublime Text](http://www.sublimetext.com/2)
+
+### 3. Cập nhật trình duyệt
 
 Open whatbrowser.org and update your browser if you don’t have the latest version.
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
-Virtual Machine
+---
+
+## Virtual Machine
 
 Instead of installing all tools on your machine, you can also set up a development environment in a Virtual Machine. Please find all the details here.
 
-Using a Cloud Service
+---
+
+## Using a Cloud Service
 
 Instead of installing Ruby on Rails and an editor on your computer, you can use a webservice for development. All you need is a browser and an internet connection. This guide explains how to get started with nitrous.io. If you’re using a different service, they may use a different wording - e.g. ‘workspace’ instead of ‘box’, but the process is usually pretty similar.
 
-1. Update your browser
+### 1. Cập nhật trình duyệt
 
 If you use Internet Explorer, we recommend installing Firefox or Google Chrome.
 
@@ -257,18 +274,18 @@ Tới https://nitrous.io và đăng kí miễn phí.
 
 ### 3. Setup a development box / workspace for ruby on rails
 
-Login to your nitrous account
-Go to the dashboard by using the green ‘Open dashboard’ button
-Create a nitrous box: pick Ruby/Rails from the templates - everything else can stay as is, but you can change the name of your box if you want to
-It takes a moment until your box is ready
+- Login to your nitrous account
+- Go to the dashboard by using the green ‘Open dashboard’ button
+- Create a nitrous box: pick Ruby/Rails from the templates - everything else can stay as is, but you can change the name of your box if you want to
+- It takes a moment until your box is ready
 
 ### 4. Find and restart your development box
 
-If you’ve just created your box, you can probably skip these steps - they’re good to know if you login to nitrous again later
-You can always find your nitrous boxes by going to the dashboard or choosing ‘Boxes’ from the top menu
-Pick your box from the list of boxes
-If you haven’t used a box in a while, it might have been shutdown due to inactivity. If you are informed that your box is not running, restart it using the respective button
-When your box is up and running, choose ‘IDE’ in order to start coding
+- If you’ve just created your box, you can probably skip these steps - they’re good to know if you login to nitrous again later
+- You can always find your nitrous boxes by going to the dashboard or choosing ‘Boxes’ from the top menu
+- Pick your box from the list of boxes
+- If you haven’t used a box in a while, it might have been shutdown due to inactivity. If you are informed that your box is not running, restart it using the respective button
+- When your box is up and running, choose ‘IDE’ in order to start coding
 
 ### 5. Coding with your development box
 
