@@ -58,9 +58,11 @@ If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, 
 
 brew install curl-ca-bundle
 cp /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt `ruby -ropenssl -e 'puts OpenSSL::X509::DEFAULT_CERT_FILE'`
+
 3a5. Set default Ruby:
 
 rbenv global 2.2.0
+
 3a6. Install rails:
 
 gem i rails --no-ri --no-rdoc
