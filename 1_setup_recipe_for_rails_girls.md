@@ -42,31 +42,44 @@ xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### 3a3. Install rbenv:
+#### 3a3. Cài đặt [rbenv](https://github.com/sstephenson/rbenv):
 
+```shell
 brew update
 brew install rbenv rbenv-gem-rehash ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo 'export PATH="$HOME/.rbenv/shims:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
-3a4. Build Ruby with rbenv:
+```
+
+#### 3a4. Build Ruby với rbenv:
 
 You can find the newest version of Ruby with the command “rbenv install -l”.
 
+```shell
 rbenv install 2.2.0
+```
+
 If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, try it this way.
 
+```shell
 brew install curl-ca-bundle
 cp /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt `ruby -ropenssl -e 'puts OpenSSL::X509::DEFAULT_CERT_FILE'`
+```
 
-3a5. Set default Ruby:
+#### 3a5. Thiết lập phiên bản Ruby mặc định:
 
+```shell
 rbenv global 2.2.0
+```
 
-3a6. Install rails:
+#### 3a6. Cài đặt Rails:
 
+```shell
 gem i rails --no-ri --no-rdoc
-3b. If your OS X version is 10.6, 10.7, or 10.8:
+```
+
+### 3b. Nếu phiên bản OS X của bạn là 10.6, 10.7, hoặc 10.8:
 
 Download the RailsInstaller for your version of OS X:
 
