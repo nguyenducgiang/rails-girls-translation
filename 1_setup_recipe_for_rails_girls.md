@@ -94,7 +94,7 @@ Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình du
 
 Như vậy là bạn đã thiết lập xong môi trường để làm việc với Ruby on Rails. Xin chúc mừng!
 
-Setup for Windows
+## Cài đặt cho Windows
 
 ## 1. Cài đặt Rails
 
