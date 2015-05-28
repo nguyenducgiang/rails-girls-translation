@@ -81,20 +81,26 @@ gem i rails --no-ri --no-rdoc
 
 ### 3b. Nếu phiên bản OS X của bạn là 10.6, 10.7, hoặc 10.8:
 
-Download the RailsInstaller for your version of OS X:
+Tải RailsInstaller phù hợp với phiên bản OS X:
 
-RailsInstaller for 10.7 and 10.8 (325MB)
-RailsInstaller for 10.6 (224MB)
+- [RailsInstaller for 10.7 and 10.8](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz) *(325MB)*
+- [RailsInstaller for 10.6](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) *(224MB)*
+
 Double click the downloaded file and it will unpack it into the current directory. Double click the the newly unpacked ‘RailsInstaller-1.0.4-osx-10.7.app’ or ‘RailsInstaller-1.0.4-osx-10.6.app’ and follow the instructions. It will open a README file with ‘Rails Installer OS X’ at the top. Please ignore the instructions in this file.
 
-If the Rails version wasn’t the latest, you could update it using a following command on terminal.
+Nếu phiên bản của Rails không phải là mới nhất, bạn có thể cập nhật bằng câu lệnh sau trên terminal.
 
+```shell
 gem update rails --no-ri --no-rdoc
-Make sure that all works well by running the application generator command.
+```
 
+Chạy lệnh khởi tạo ứng dụng để chắc chắn mọi thứ hoạt động như mong muốn.
+
+```shell
 rails new railsgirls
+```
 
-4. Install a text editor to edit code files
+### 4. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
 For the workshop we recommend the text editor Atom.
 
