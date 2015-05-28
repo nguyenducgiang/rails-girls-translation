@@ -102,10 +102,11 @@ rails new railsgirls
 
 ### 4. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
-For the workshop we recommend the text editor Atom.
+Đối với workshop chúng tôi khuyến nghị sử dụng trình soạn thảo Atom.
 
-Download Atom and install it
-If you are using Mac OS X 10.7 or older versions, you can use another editor Sublime Text 2.
+- [Tải và cài đặt Atom](https://atom.io/)
+
+Nếu bạn sử dụng Mac OS X 10.7 hoặc cũ hơn, bạn có thể dùng trình soạn thảo khác như [Sublime Text 2](http://www.sublimetext.com/2).
 
 ### 5. Cập nhật trình duyệt
 
@@ -139,18 +140,24 @@ cd railsgirls
 rails server
 ```
 
-Possible errors
+## Các lỗi có thể xảy ra
 
-Gem::RemoteFetcher error
+### Lỗi Gem::RemoteFetcher
 
 If you get this error when running rails new railsgirls or gem update rails:
 
+```shell
 Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read
 server certificate B: certificate verify failed (https://rubygems.org/gems/i18n-
 0.6.11.gem)
+```
+
 This means you have an older version of Rubygems and will need to update it manually first verify your Rubygems version
 
+```shell
 gem -v
+```
+
 If it is lower than 2.2.3 you will need to manually update it:
 
 First download the ruby-gems-update gem. Move the file to c:\\rubygems-update-2.2.3.gem then run:
