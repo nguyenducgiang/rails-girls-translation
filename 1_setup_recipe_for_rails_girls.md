@@ -202,7 +202,7 @@ Now you should have a working Ruby on Rails programming setup. Congrats!
 
 Nếu bạn đang dùng Internet Explorer, chúng tôi khuyến khích bạn cài đặt [Firefox](http://guides.railsgirls.com/install/mozilla.org/firefox) hay [Google Chrome](http://guides.railsgirls.com/install/google.com/chrome).
 
-Open whatbrowser.org and update your browser if you don’t have the latest version.
+Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình duyệt của bạn lên phiên bản mới nhất nếu có.
 
 ---
 
@@ -246,9 +246,9 @@ For the workshop we recommend the text editor Sublime Text.
 
 ### 3. Cập nhật trình duyệt
 
-Open whatbrowser.org and update your browser if you don’t have the latest version.
+Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình duyệt của bạn lên phiên bản mới nhất nếu có.
 
-Now you should have a working Ruby on Rails programming setup. Congrats!
+Như vậy là bạn đã thiết lập xong môi trường để làm việc với Ruby on Rails. Xin chúc mừng!
 
 ---
 
