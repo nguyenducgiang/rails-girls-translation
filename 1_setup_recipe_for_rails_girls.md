@@ -54,13 +54,13 @@ source ~/.bash_profile
 
 #### 3a4. Build Ruby với rbenv:
 
-You can find the newest version of Ruby with the command “rbenv install -l”.
+Bạn có thể dùng lệnh “rbenv install -l” để xem phiên bản Ruby mới nhất.
 
 ```shell
 rbenv install 2.2.0
 ```
 
-If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, try it this way.
+Nếu bạn gặp lỗi “OpenSSL::SSL::SSLError: … : certificate verify failed”, hãy thử cách sau.
 
 ```shell
 brew install curl-ca-bundle
@@ -86,7 +86,7 @@ Tải RailsInstaller phù hợp với phiên bản OS X:
 - [RailsInstaller for 10.7 and 10.8](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz) *(325MB)*
 - [RailsInstaller for 10.6](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) *(224MB)*
 
-Double click the downloaded file and it will unpack it into the current directory. Double click the the newly unpacked ‘RailsInstaller-1.0.4-osx-10.7.app’ or ‘RailsInstaller-1.0.4-osx-10.6.app’ and follow the instructions. It will open a README file with ‘Rails Installer OS X’ at the top. Please ignore the instructions in this file.
+Nháy đúp vào tệp tin tải về, nó sẽ được giải nén vào cùng thư mục mà nó đang ở trong. Nháy đúp vào tệp tin vừa được giải nén 'RailsInstaller-1.0.4-osx-10.7.app' hoặc 'RailsInstaller-1.0.4-osx-10.6.app' và làm theo hướng dẫn. Nó sẽ mở tệp tin README với tiêu đề 'Rails Installer OS X'. Đừng quan tâm đến tệp tin này.
 
 Nếu phiên bản của Rails không phải là mới nhất, bạn có thể cập nhật bằng câu lệnh sau trên terminal.
 
