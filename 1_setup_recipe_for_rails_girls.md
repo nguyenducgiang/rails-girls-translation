@@ -211,8 +211,6 @@ Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình du
 
 ### 1. Cài đặt Rails
 
- Grabbing a refreshing drink before starting is encouraged.
-
 Để cài đặt môi trường phát triển cho Ruby on Rails bạn chỉ cần sao chép dòng lệnh dưới đây cho Linux (Ubunbu hoặc Fedora), dán vào Terminal và nhấn Enter. Sẽ mất một lúc để hoàn thành, trong thời gian đó hãy thưởng thức các con chữ bay nhảy trên màn hình. Chúng tôi khuyến khích các bạn kiếm chút đồ giải khát trước khi bắt đầu.
 
 Trên Ubuntu:
