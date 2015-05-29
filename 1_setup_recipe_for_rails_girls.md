@@ -134,7 +134,7 @@ Nếu phiên bản Rails nhỏ hơn 4, cập nhật nó bằng lệnh sau:
 gem update rails --no-ri --no-rdoc
 ```
 
-Make sure that all works well by running the application generator command.
+Chạy lệnh khởi tạo ứng dụng để chắc chắn mọi thứ hoạt động như mong muốn.
 
 ```shell
 rails new railsgirls
@@ -186,7 +186,7 @@ Look at the bottom of the file. You will probably see something like this as one
 
 After you did that, please use your Command Prompt again and type bundle update.
 
-### 2. Install a text editor to edit code files
+### 2. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
 For the workshop we recommend the text editor Atom.
 
@@ -226,9 +226,7 @@ Trên Fedora:
 bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh)
 ```
 
-Make sure that all works well by running the application generator command.
-
-Make sure that all works well by running the application generator command.
+Chạy lệnh khởi tạo ứng dụng để chắc chắn mọi thứ hoạt động như mong muốn.
 
 ```sh
 rails new railsgirls
@@ -236,9 +234,7 @@ cd railsgirls
 rails server
 ```
 
-### 2. Install a text editor to edit code files
-
-For the workshop we recommend the text editor Sublime Text.
+### 2. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
 Đối với workshop chúng tôi khuyến nghị sử dụng trình soạn thảo Sublime Text.
 
