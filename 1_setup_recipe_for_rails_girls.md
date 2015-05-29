@@ -188,15 +188,16 @@ After you did that, please use your Command Prompt again and type bundle update.
 
 ### 2. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
-For the workshop we recommend the text editor Atom.
+Đối với workshop chúng tôi khuyến nghị sử dụng trình soạn thảo Atom.
 
-Download Atom and install it
-Download an atom zip file for windows and decompress it.
-Copy the folder into your Program Files.
-Launch atom in the folder.
-If you are using Windows Vista or older versions, you can use another editor Sublime Text 2.
+- [Tải và cài đặt Atom](https://github.com/atom/atom/releases/latest)
+  - Tải và giải nén tệp tin Atom cho Windows.
+  - Sao chép thư mục (Atom) vào trong Program Files.
+  - Chạy Atom từ thư mục.
 
-Now you should have a working Ruby on Rails programming setup. Congrats!
+Nếu bạn dùng Window Vista hoặc các phiên bản cũ hơn, bạn có thể dùng trình soạn thảo [Sublime Text 2](http://www.sublimetext.com/2)
+
+Như vậy là bạn đã thiết lập xong môi trường để làm việc với Ruby on Rails. Xin chúc mừng!
 
 ### 3. Cập nhật trình duyệt
 
@@ -248,21 +249,21 @@ Như vậy là bạn đã thiết lập xong môi trường để làm việc v�
 
 ---
 
-## Virtual Machine
+## Máy Ảo
 
 Instead of installing all tools on your machine, you can also set up a development environment in a Virtual Machine. Please find all the details here.
 
 ---
 
-## Using a Cloud Service
+## Sử dụng Dịch vụ Đám mây
 
 Instead of installing Ruby on Rails and an editor on your computer, you can use a webservice for development. All you need is a browser and an internet connection. This guide explains how to get started with nitrous.io. If you’re using a different service, they may use a different wording - e.g. ‘workspace’ instead of ‘box’, but the process is usually pretty similar.
 
 ### 1. Cập nhật trình duyệt
 
-If you use Internet Explorer, we recommend installing Firefox or Google Chrome.
+Nếu bạn đang dùng Internet Explorer, chúng tôi khuyến khích bạn cài đặt [Firefox](http://guides.railsgirls.com/install/mozilla.org/firefox) hay [Google Chrome](http://guides.railsgirls.com/install/google.com/chrome).
 
-Open whatbrowser.org and update your browser if you don’t have the latest version.
+Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình duyệt của bạn lên phiên bản mới nhất nếu có.
 
 ### 2. Tạo tài khoản miễn phí
 
