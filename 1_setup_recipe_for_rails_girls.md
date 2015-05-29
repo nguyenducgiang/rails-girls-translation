@@ -146,7 +146,7 @@ rails server
 
 ### Lỗi Gem::RemoteFetcher
 
-If you get this error when running rails new railsgirls or gem update rails:
+Nếu bạn gặp phải lỗi dưới đây khi chạy `rails new railsgirls` hay `gem update rails`:
 
 ```shell
 Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read
@@ -154,15 +154,15 @@ server certificate B: certificate verify failed (https://rubygems.org/gems/i18n-
 0.6.11.gem)
 ```
 
-This means you have an older version of Rubygems and will need to update it manually first verify your Rubygems version
+Điều này có nghĩa là bạn đang sử dụng phiên bản Rubygems quá cũ và cần được cập nhật thủ công. Đầu tiên hãy kiểm tra phiên bản Rubygems đang dùng.
 
 ```shell
 gem -v
 ```
 
-If it is lower than 2.2.3 you will need to manually update it:
+Nếu phiên bản nhỏ hơn 2.2.3, bạn cần cập nhật thủ công như sau:
 
-First download the ruby-gems-update gem. Move the file to c:\\rubygems-update-2.2.3.gem then run:
+Đầu tiên tải [ruby-gems-update gem](https://github.com/rubygems/rubygems/releases/download/v2.2.3/rubygems-update-2.2.3.gem) về. Di chuyển tệp tin tới `c:\\rubygems-update-2.2.3.gem` và chạy:
 
 ```shell
 gem install --local c:\\rubygems-update-2.2.3.gem
@@ -170,13 +170,13 @@ update_rubygems --no-ri --no-rdoc
 gem uninstall rubygems-update -x
 ```
 
-Check your version of rubygems
+Kiểm tra phiên bản của Rubygems
 
 ```shell
 gem -v
 ```
 
-Make sure it is higher than 2.2.3. Re-run the command that was failing previously.
+Hãy chắc chắn là phiên bản lớn hơn 2.2.3. Chạy lại các lệnh bị lỗi lúc trước.
 
 ### Lỗi ‘x64_mingw’ is not a valid platform`
 
