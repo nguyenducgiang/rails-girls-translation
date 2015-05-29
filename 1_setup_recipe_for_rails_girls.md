@@ -269,12 +269,12 @@ Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình du
 
 Tới https://nitrous.io và đăng kí miễn phí.
 
-### 3. Setup a development box / workspace for ruby on rails
+### 3. Cài đặt một development box / workspace cho Ruby on Rails
 
-- Login to your nitrous account
+- Đăng nhập vào tài khoản nitrous của bạn
 - Go to the dashboard by using the green ‘Open dashboard’ button
 - Create a nitrous box: pick Ruby/Rails from the templates - everything else can stay as is, but you can change the name of your box if you want to
-- It takes a moment until your box is ready
+- Sẽ mất một chút thời gian để development box sẵn sàng.
 
 ### 4. Find and restart your development box
 
@@ -284,12 +284,13 @@ Tới https://nitrous.io và đăng kí miễn phí.
 - If you haven’t used a box in a while, it might have been shutdown due to inactivity. If you are informed that your box is not running, restart it using the respective button
 - When your box is up and running, choose ‘IDE’ in order to start coding
 
-### 5. Coding with your development box
+### 5. Viết mã với development box
 
-- On the left hand side, you find a file browser where you can navigate your directories and file
-- In the middle, you find the editor where you can modify your files
-- At the bottom, you find the terminal where you can run commands
-- Everything you need is here in you browser window - you do not need to start an editor or terminal anywhere else
-- If your following a guide or tutorial, use the commands for Linux even if you are on a Windows computer - your operating system does not matter, since all commands are run on your development box, which is a Linux machine
-- If a guide or tutorial asks you to point your browser to something like http://localhost:3000, go to the ‘Preview’ menu and pick ‘Port 3000’
-- If, for example, you’re asked to open http://localhost:3000/posts, please append ‘/posts’ manually to the URL that has been opened
+- Ở bên tay trái là cửa sổ duyệt tập tin, bạn có thể điều hướng giữa các tập tin và thư mục ở đây
+- Ở giữa là trinh soạn thảo nơi bạn chỉnh sửa các tệp tin
+- Ở phía dưới cùng, bạn sẽ thấy terminal để chạy lệnh
+- Tất cả các thứ bạn cần có sẵn trên cửa sổ trình duyệt - bạn không cần mở thêm một trình soạn thảo hay terminal ở chỗ khác
+- Nếu bạn đang làm theo các hướng dẫn, hãy sử dụng các lệnh cho Linux ngay cả khi bạn đang sử dụng một máy tính xài Windows
+- Hệ điều hành bạn đang sử dụng không liên quan ở đây, vì tất cả các lệnh được chạy trên development box - một cỗ máy Linux
+- Nếu một hướng dẫn đề nghị bạn trỏ trình duyệt tới một địa chỉ như `http://localhost:3000`, hãy vào trình đơn 'Preview' và chọn 'Port 3000'
+- Nếu, tỉ dụ, bạn được đề nghị truy cập `http://localhost:3000/posts`, hãy thêm `/posts` thủ công vào URL đã được mở ở trên
