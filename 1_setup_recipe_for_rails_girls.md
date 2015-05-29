@@ -211,7 +211,9 @@ Mở trang [whatbrowser.org](http://whatbrowser.org/) và cập nhật trình du
 
 ### 1. Cài đặt Rails
 
-To install the Ruby on Rails development environment you just need to copy the line below for your Linux distribution (Ubuntu or Fedora), paste it in the Terminal and press Enter. Enjoy the text flying on the screen; it will take quite some time. Grabbing a refreshing drink before starting is encouraged.
+ Grabbing a refreshing drink before starting is encouraged.
+
+Để cài đặt môi trường phát triển cho Ruby on Rails bạn chỉ cần sao chép dòng lệnh dưới đây cho Linux (Ubunbu hoặc Fedora), dán vào Terminal và nhấn Enter. Sẽ mất một lúc để hoàn thành, trong thời gian đó hãy thưởng thức các con chữ bay nhảy trên màn hình. Chúng tôi khuyến khích các bạn kiếm chút đồ giải khát trước khi bắt đầu.
 
 Trên Ubuntu:
 
