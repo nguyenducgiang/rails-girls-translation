@@ -221,7 +221,7 @@ Trên Ubuntu:
 bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
 ```
 
-If you are going to use RVM installations with gnome-terminal, you’ll probably need to change it’s default options before you can see and use the right Ruby and Rails versions. Find out how: RVM documentation.
+Nếu bạn định sử dụng RVM để cài đặt với gnome-terminal, có thể bạn sẽ cần thay đổi tùy chọn mặc định (của terminal) trước khi sử dụng được phiên bản Ruby on Rails phù hợp. Xem chi tiết: [RVM documentation](http://rvm.io/integration/gnome-terminal)
 
 Trên Fedora:
 
