@@ -251,7 +251,7 @@ Như vậy là bạn đã thiết lập xong môi trường để làm việc v�
 
 ## Máy Ảo
 
-Instead of installing all tools on your machine, you can also set up a development environment in a Virtual Machine. Please find all the details here.
+Thay vì cài đặt các công cụ trên máy tính của bạn, bạn có thể thiết kế môi trường phát triển trên một máy ảo. Vui lòng xem chi tiết [tại đây](http://guides.railsgirls.com/virtual-machine).
 
 ---
 
