@@ -120,7 +120,7 @@ Như vậy là bạn đã thiết lập xong môi trường để làm việc v�
 
 ## 1. Cài đặt Rails
 
-Download RailsInstaller and run it. Click through the installer using the default options.
+Tải và chạy [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.1.0.exe). Cài đặt chương trình sử dụng các tùy chọn mặc định (luôn nhấn 'Next' mà không cần quan tâm tới các lựa chọn).
 
 Mở `Command Prompt with Ruby on Rails` và chạy các lệnh sau:
 
@@ -259,6 +259,8 @@ Thay vì cài đặt các công cụ trên máy tính của bạn, bạn có th�
 
 Instead of installing Ruby on Rails and an editor on your computer, you can use a webservice for development. All you need is a browser and an internet connection. This guide explains how to get started with nitrous.io. If you’re using a different service, they may use a different wording - e.g. ‘workspace’ instead of ‘box’, but the process is usually pretty similar.
 
+Thay vì cài đặt Ruby on Rails và trình soạn thảo trên máy tính của mình, bạn có thể sử dụng một dịch vụ web để làm việc. Bạn chỉ cần trình duyệt và đường truyền Internet. Hướng dẫn này sẽ giải thích cách cài đặt với [nitrous.io](https://nitrous.io/). Nếu bạn sử dụng dịch vụ khác, họ có thể dùng các từ ngữ khác đi - như 'worksace' thay cho 'box', tuy nhiên quá trình cài đặt gần như là giống nhau. 
+
 ### 1. Cập nhật trình duyệt
 
 Nếu bạn đang dùng Internet Explorer, chúng tôi khuyến khích bạn cài đặt [Firefox](http://guides.railsgirls.com/install/mozilla.org/firefox) hay [Google Chrome](http://guides.railsgirls.com/install/google.com/chrome).
@@ -272,17 +274,17 @@ Tới https://nitrous.io và đăng kí miễn phí.
 ### 3. Cài đặt một development box / workspace cho Ruby on Rails
 
 - Đăng nhập vào tài khoản nitrous của bạn
-- Go to the dashboard by using the green ‘Open dashboard’ button
-- Create a nitrous box: pick Ruby/Rails from the templates - everything else can stay as is, but you can change the name of your box if you want to
+- Đi tới bảng điều khiển bằng cách nhấn vào nút vào xanh lá cây 'Open dashboard'
+- Tạo một nitrous box: chọn Ruby/Rails từ danh sách templates - tất cả đều có thể để ở tùy chọn mặc định, bạn có thể đổi tên của box nếu muốn
 - Sẽ mất một chút thời gian để development box sẵn sàng.
 
-### 4. Find and restart your development box
+### 4. Tìm và khởi động lại development box
 
 - If you’ve just created your box, you can probably skip these steps - they’re good to know if you login to nitrous again later
 - You can always find your nitrous boxes by going to the dashboard or choosing ‘Boxes’ from the top menu
 - Pick your box from the list of boxes
-- If you haven’t used a box in a while, it might have been shutdown due to inactivity. If you are informed that your box is not running, restart it using the respective button
-- When your box is up and running, choose ‘IDE’ in order to start coding
+- Nếu bạn không sử dụng một development box trong một thời gian, nó có thể bị tắt đi vì không có hoạt động. Nếu bạn được thông báo là box của bạn đang không hoạt động, hãy khởi động lại bằng nút tương ứng.
+- Khi development box đã chạy, chọn 'IDE' để bắt đầu viết mã
 
 ### 5. Viết mã với development box
 
