@@ -180,11 +180,11 @@ Hãy chắc chắn là phiên bản lớn hơn 2.2.3. Chạy lại các lệnh b
 
 ### Lỗi ‘x64_mingw’ is not a valid platform`
 
-Sometimes you get the following error when running rails server: 'x64_mingw' is not a valid platform If you experience this error after using the RailsInstaller you have to do a small edit to the file Gemfile:
+Đôi khi bạn gặp phải lỗi sau khi chạy `rails server`: `'x64_mingw' is not a valid platform`. Nếu gặp lỗi này sau khi cài RailsInstaller, bạn cần sửa đổi tệp tin `Gemfile` một chút:
 
-Look at the bottom of the file. You will probably see something like this as one of the last lines in the file: gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]. If you have this line with :x64_mingw, then please delete the :x64_mingw part. In the end it should just say: 'tzinfo-data', platforms: [:mingw, :mswin]
+Xem phần dưới cùng của tệp tin, có thể bạn sẽ thấy dòng cuối cùng như sau: `gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]`. Nếu dòng này có `:x64_mingw`, hãy xóa `:x64_mingw`. Sau khi sửa, dòng cuối cùng của tệp tin nên là: `'tzinfo-data', platforms: [:mingw, :mswin]`.
 
-After you did that, please use your Command Prompt again and type bundle update.
+Sau khi hoàn thành việc sửa đổi, vui lòng dùng Command Prompt và chạy `bundle update`.
 
 ### 2. Cài đặt một trình soạn thảo văn bản để soạn thảo các tệp mã
 
