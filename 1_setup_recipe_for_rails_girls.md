@@ -257,8 +257,6 @@ Thay vì cài đặt các công cụ trên máy tính của bạn, bạn có th�
 
 ## Sử dụng Dịch vụ Đám mây
 
-Instead of installing Ruby on Rails and an editor on your computer, you can use a webservice for development. All you need is a browser and an internet connection. This guide explains how to get started with nitrous.io. If you’re using a different service, they may use a different wording - e.g. ‘workspace’ instead of ‘box’, but the process is usually pretty similar.
-
 Thay vì cài đặt Ruby on Rails và trình soạn thảo trên máy tính của mình, bạn có thể sử dụng một dịch vụ web để làm việc. Bạn chỉ cần trình duyệt và đường truyền Internet. Hướng dẫn này sẽ giải thích cách cài đặt với [nitrous.io](https://nitrous.io/). Nếu bạn sử dụng dịch vụ khác, họ có thể dùng các từ ngữ khác đi - như 'worksace' thay cho 'box', tuy nhiên quá trình cài đặt gần như là giống nhau. 
 
 ### 1. Cập nhật trình duyệt
@@ -280,9 +278,9 @@ Tới https://nitrous.io và đăng kí miễn phí.
 
 ### 4. Tìm và khởi động lại development box
 
-- If you’ve just created your box, you can probably skip these steps - they’re good to know if you login to nitrous again later
-- You can always find your nitrous boxes by going to the dashboard or choosing ‘Boxes’ from the top menu
-- Pick your box from the list of boxes
+- Nếu bạn mới khởi tạo box, bạn có thể bỏ qua phần này - tuy nhiên sẽ tốt cho bạn nếu như bạn đăng nhập lại vào nitrous sau này
+- Bạn có thể tìm thấy notrous boxes của mình bằng cách đi tới bảng điều khiển hoặc chọn 'Boxes' từ trình đơn trên cùng
+- Chọn một box từ danh sách
 - Nếu bạn không sử dụng một development box trong một thời gian, nó có thể bị tắt đi vì không có hoạt động. Nếu bạn được thông báo là box của bạn đang không hoạt động, hãy khởi động lại bằng nút tương ứng.
 - Khi development box đã chạy, chọn 'IDE' để bắt đầu viết mã
 
