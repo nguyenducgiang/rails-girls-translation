@@ -11,10 +11,12 @@
 - Nếu chưa có, tải Git [ở đây](http://git-scm.com/downloads). Sau đó, cài đặt hồ sơ Git cục bộ - trong terminal:
   - Nhập `git config --global user.name "tên-của-bạn"`
   - Nhập `git config --global user.email "email-của-bạn"`
+  - To check if Git is already config-ed you can type git config --list
+- Tạo tài khoản miễn phí trên [GitHub](https://github.com/) hoặc đăng nhập nếu bạn đã có tài khoản
 
-To check if Git is already config-ed you can type git config --list
-Create a free GitHub account or login if you already have one
-COACH: Talk a little about git, verison control, and open source
+**Huấn luyện viên**: Nói một chút về git, quản lý phiên bản và mã nguồn mở.
+
+Talk a little about git, verison control, and open source
 
 Push your app to GitHub using the command line
 
