@@ -183,7 +183,7 @@ In case your Terminal shows you an error message that sort of implies there is s
 
 **Huấn luyện viên**: Nói một chút về CSS và bố cục trang web.
 
-4.Adding picture uploads
+## 4. Adding picture uploads
 
 We need to install a piece of software to let us upload files in Rails.
 
