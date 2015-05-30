@@ -28,7 +28,7 @@ git init
 
 Lệnh này sẽ khởi tạo một git repository trong dự án của bạn.
 
-Note: If you’ve already done the Heroku guide, then you’ve already initialized a git repository & you can move on to the next steps.
+*Lưu ý*: Nếu bạn đã làm theo [hướng dẫn cho Heroky](heroku.md), thì git repository đã được khởi tạo rồi và bạn có thể bỏ qua bước trên.
 
 Tiếp theo kiểm tra nếu tập tin `READEME.rdoc` tồn tại trong thư mục `railsgirls`:
 
