@@ -108,7 +108,7 @@ git push origin master
 
 - Theo đuôi những người cùng tham gia Rails Girls với bạn và các huấn luyện viên trên Gihub
 - 'Star' (đánh dấu sao) hoặc 'watch' (đánh dấu theo dõi) các dự án của họ
-- Fork a repo, then clone and push changes to your fork. Share the changes with the originator by sending them a pull request!
+- ['Fork'](https://help.github.com/articles/fork-a-repo) một 'repo', sau đó 'clone' và đẩy các thay đổi vào bản 'fork' của bạn. Chia sẻ các thay đổi này với người sở hữu dự án bằng cách gửi họ một 'pull request'!
 - Tạo một 'issue' trên một dự án khi bạn phát hiện ra bug
 - Khám phá các dự án mã nguồn mở khác - tìm kiếm theo ngôn ngữ lập trình hay từ khóa
 
