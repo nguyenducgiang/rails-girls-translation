@@ -107,13 +107,13 @@ Coach: Talk about the relationship between HTML and Rails. What part of views is
 
 The app doesn’t look very nice yet. Let’s do something about that. We’ll use the Twitter Bootstrap project to give us nicer styling really easily.
 
-Open app/views/layouts/application.html.erb in your text editor and above the line
+Mở `app/views/layouts/application.html.erb` bằng trình soạn thảo và trên dòng
 
 ```html
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
 ```
 
-add
+thêm
 
 ```html
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
