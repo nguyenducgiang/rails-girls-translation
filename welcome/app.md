@@ -2,6 +2,20 @@
 
 *Viết bởi Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
 
-Make sure you have Rails installed. Follow the installation guide to get set up.
-
 **Hãy chắc chắn rằng bạn đã cài đặt Rails. [Làm theo hướng dẫn cài đặt](install.md)** để bắt đầu.
+
+## Làm quen với các công cụ
+
+### Trình soạn thảo
+
+Atom, Sublime Text, Vim and Emacs are examples of text editors your can use for writing code and editing files.
+ 
+
+Terminal (known as Command Prompt on Windows)
+
+Where you start the rails server and run commands.
+ 
+
+Web browser
+
+(Firefox, Safari, Chrome) for viewing your application.
