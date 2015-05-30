@@ -1,7 +1,5 @@
 # Summary
 
-### [Giới thiệu](README.md)
-
 ### Chào mừng tới Rails Girls!
 
 **0. [Làm thế nào để tổ chức một sự kiện Rails Girls](welcome/guide.md)**
