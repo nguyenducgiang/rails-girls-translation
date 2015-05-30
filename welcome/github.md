@@ -92,7 +92,7 @@ Sau đó nhập:
 git push -u origin master
 ```
 
-This sends your commits in your “master” branch to GitHub
+Lệnh này sẽ gửi các 'commit' của bạn tới nhánh "master" trên Github.
 
 Congratulations your app is on GitHub! Go check it out by going to the same url you used above: https://github.com/username/rails-girls (without the .git part)
 
