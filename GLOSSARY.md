@@ -13,4 +13,5 @@
 - preview: xem trước
 - static page: trang tĩnh
 - text editor: trình soạn thảo (văn bản)
+- upload: tải lên
 - version control: quản lý phiên bản
