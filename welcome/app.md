@@ -31,7 +31,7 @@ Trước hết, hãy mở terminal lên:
 - Mac OS X: Mở Spotlight, nhập *Terminal* và nhấn vào ứng dụng *Terminal*.
 - Windows: Nhấn Start và tìm *Command Prompt*, rồi nhấn vào *Command Prompt with Ruby on Rails*.
 - Linux (Ubuntu/Fedora): Tìm *Terminal* trên bảng điều khiển và nhấn *Terminal*.
-- Dịch-vụ đám-mây (như nitrous): Đăng nhập vào tài khoản, khởi động box của bạn và chuyển sang IDE (xem chi tiết ở [hướng dẫn cài đặt](install.md#using-a-cloud-service)). The terminal is usually at the bottom of your browser window.
+- Dịch-vụ đám-mây (như nitrous): Đăng nhập vào tài khoản, khởi động box của bạn và chuyển sang IDE (xem chi tiết ở [hướng dẫn cài đặt](install.md#using-a-cloud-service)). Terminal thường nằm phía dưới cùng của cửa sổ trình duyệt.
 
 Tiếp theo nhập các lệnh sau vào terminal:
 
