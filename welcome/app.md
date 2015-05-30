@@ -266,7 +266,7 @@ Now refresh your browser to see what changed.
 
 **Huấn luyện viên**: Nói một chút về HTML.
 
-5.Finetune the routes
+## 5. Finetune the routes
 
 Open http://localhost:3000 (or your preview url, if you are using a cloud service). It still shows the “Welcome aboard” page. Let’s make it redirect to the ideas page.
 
@@ -282,7 +282,7 @@ Coach: Talk about routes, and include details on the order of routes and their r
 
 Rails 3 users: You will need to delete the index.html from the /public/ folder for this to work.
 
-Create static page in your app
+## Tạo trang tĩnh cho ứng dụng
 
 Lets add a static page to our app that will hold information about the author of this application — you!
 
