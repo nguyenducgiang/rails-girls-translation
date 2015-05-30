@@ -1,10 +1,10 @@
 # Đẩy ứng dụng của bạn lên Github
 
-Created by Alyson La, @realalysonla
+*Viết bởi Alyson La, [@realalysonla](https://www.twitter.com/realalysonla)*
 
-Things you need before you get started
+## Các thứ cần chuẩn bị trước khi bắt đầu
 
-Git & GitHub
+### Git & GitHub
 
 Check if Git is installed
 In the terminal type git --version (1.8 or higher preferred)
