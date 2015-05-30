@@ -114,6 +114,6 @@ Explore other open source projects - search by programming languange or key word
 
 ### Học thêm về Git
 
-- Check out trygit.org
-- Use a Git Cheatsheet
+- Thử [trygit.org](http://try.github.io/)
+- Sử dụng một [Git Cheatsheet](https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf)
 - Look up Git Commands at git-scm.org
