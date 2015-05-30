@@ -7,4 +7,4 @@
 - menu: trình đơn
 - preview: xem trước
 - static page: trang tĩnh
-- text editor: trình soạn thảo văn bản
+- text editor: trình soạn thảo (văn bản)
