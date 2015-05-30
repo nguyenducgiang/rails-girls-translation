@@ -16,9 +16,7 @@
 
 **Huấn luyện viên**: Nói một chút về git, quản lý phiên bản và mã nguồn mở.
 
-Talk a little about git, verison control, and open source
-
-Push your app to GitHub using the command line
+## Đẩy ứng dụng của bạn lên Github sử dụng dòng lệnh
 
 On your GitHub profile click “new repo” screen shot 2013-06-01 at 12 38 50 pm give it a name (example: rails-girls), brief description, choose the “public” repo option, and click “create repository”.
 
