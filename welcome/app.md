@@ -20,7 +20,7 @@
 
 ### Chú ý
 
-Bạn cần chú ý lựa chọn chỉ dẫn chính xác cho hệ điều hành của mình - các lệnh cần chạy trên Windows sẽ khác một chút so với Mac và Linux. Lưu ý những chỗ có chú thích riêng cho Windows. Nếu bạn dùng một dịch-vụ đám-mây (như Nitrous), bạn cần chạy các lệnh cho Linux ngay cả khi bạn đang dùng máy tính chạy trên Windows.
+Bạn cần chú ý lựa chọn chỉ dẫn chính xác cho hệ điều hành của mình - các lệnh cần chạy trên Windows sẽ khác một chút so với Mac và Linux. Lưu ý những chỗ có chú thích riêng cho Windows. Nếu bạn dùng một dịch-vụ đám-mây (như nitrous), bạn cần chạy các lệnh cho Linux ngay cả khi bạn đang dùng máy tính chạy trên Windows.
 
 ## 1. Khởi tạo ứng dụng
 
@@ -29,9 +29,9 @@ Chúng ta sẽ khởi tạo một ứng dụng Rails mới với tên gọi *rai
 Trước hết, hãy mở terminal lên:
 
 - Mac OS X: Mở Spotlight, nhập *Terminal* và nhấn vào ứng dụng *Terminal*.
-- Windows: Click Start and look for Command Prompt, then click Command Prompt with Ruby on Rails.
-- Linux (Ubuntu/Fedora): Search for Terminal on the dash and click Terminal.
-- Cloud service (e.g. nitrous): Log in to your account, start your box and switch to its IDE (see installation guide for details). The terminal is usually at the bottom of your browser window.
+- Windows: Nhấn Start và tìm *Command Prompt*, rồi nhấn vào *Command Prompt with Ruby on Rails*.
+- Linux (Ubuntu/Fedora): Tìm *Terminal* trên bảng điều khiển và nhấn *Terminal*.
+- Dịch-vụ đám-mây (như nitrous): Đăng nhập vào tài khoản, khởi động box của bạn và chuyển sang IDE (xem chi tiết ở [hướng dẫn cài đặt](install.md#using-a-cloud-service)). The terminal is usually at the bottom of your browser window.
 
 Tiếp theo nhập các lệnh sau vào terminal:
 
