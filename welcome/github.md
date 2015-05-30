@@ -6,11 +6,11 @@
 
 ### Git & GitHub
 
-Check if Git is installed
-In the terminal type git --version (1.8 or higher preferred)
-If not, download Git [here] (http://git-scm.com/downloads). Then, setup your local Git profile - In the terminal:
-Type git config --global user.name "your-name"
-Type git config --global user.email "your-email"
+- Kiểm tra nếu Git đã được cài đặt
+  - Trong terminal nhập `git --version` (khuyến khích dùng phiên bản 1.8 hoặc mới hơn)
+- Nếu chưa có, tải Git [ở đây](http://git-scm.com/downloads). Sau đó, cài đặt hồ sơ Git cục bộ - trong terminal:
+  - Nhập `git config --global user.name "tên-của-bạn"`
+  - Nhập `git config --global user.email "email-của-bạn"`
 
 To check if Git is already config-ed you can type git config --list
 Create a free GitHub account or login if you already have one
