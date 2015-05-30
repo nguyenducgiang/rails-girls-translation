@@ -12,9 +12,12 @@
 
 ### Terminal (hay Command Prompt trên Windows)
 
-Where you start the rails server and run commands.
- 
+- Nơi bạn khởi động rails server hay chạy lệnh.
 
-Web browser
+### Trình duyệt
 
-(Firefox, Safari, Chrome) for viewing your application.
+- (Firefox, Safari, Chrome) để xem ứng dụng của bạn.
+
+### Chú ý
+
+It is important that you select the instructions specific to your operating system - the commands you need to run on a Windows computer are slightly different to Mac or Linux. If you’re having trouble check the Operating System switcher at the bottom of the commands. In case you’re using a cloud service (e.g. nitrous), you need to run the Linux commands even if you are on a Windows computer.
