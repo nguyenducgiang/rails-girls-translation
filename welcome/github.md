@@ -20,7 +20,7 @@
 
 Trên trang GitHub của bạn, nhấn vào "new repo" ![screen shot 2013-06-01 at 12 38 50 pm](https://f.cloud.github.com/assets/2623954/595307/eb70c6cc-caf2-11e2-9d2d-60deb31ac049.png), đặt tên cho repo (ví dụ: rails-girls), mô tả ngắn gọn, để tùy chọn "public" và nhấn vào "create repository".
 
-In the command line–make sure you cd into your railgirls folder–and type:
+Trong terminal, hãy chắc chắn bạn đã `cd` vào thư mục `railsgirls` và nhập:
 
 ```shell
 git init
