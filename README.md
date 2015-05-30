@@ -10,4 +10,8 @@
 
 **2. [Xây dựng ứng dụng đầu tiên](welcome/app.md)**
 
-Hướng dẫn xây dựng ứng dụng đầu tiên của bạn với Ruby on Rails.
+Hướng dẫn xây dựng ứng dụng đầu tiên của bạn với Ruby on Rails
+
+**3. [Đẩy ứng dụng của bạn lên GitHub](welcome/github.md)**
+
+Đẩy các đoạn mã của bạn lên GitHub để mọi người có thể tiếp cận.
