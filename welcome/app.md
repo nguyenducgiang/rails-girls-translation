@@ -8,10 +8,9 @@
 
 ### Trình soạn thảo
 
-Atom, Sublime Text, Vim and Emacs are examples of text editors your can use for writing code and editing files.
- 
+- Atom, Sublime Text, Vim và Emacs là một số trình soạn thảo bạn có thể sử dụng cho việc viết mã và chỉnh sửa tập tin.
 
-Terminal (known as Command Prompt on Windows)
+### Terminal (hay Command Prompt trên Windows)
 
 Where you start the rails server and run commands.
  
