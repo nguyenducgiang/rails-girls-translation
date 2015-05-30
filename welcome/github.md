@@ -30,7 +30,7 @@ This initializes a git repository in your project
 
 Note: If you’ve already done the Heroku guide, then you’ve already initialized a git repository & you can move on to the next steps.
 
-Next check if a file called READEME.rdoc exists in your railsgirl directory:
+Tiếp theo kiểm tra nếu tập tin `READEME.rdoc` tồn tại trong thư mục `railsgirls`:
 
 ```shell
 ls README.rdoc
@@ -50,9 +50,11 @@ touch README.rdoc
 
 **Huấn luyện viên**: Nói một chút về README.rdoc
 
-Then type:
+Sau đó nhập:
 
+```shell
 git status
+```
 
 This will list out all the files in your working directory.
 
