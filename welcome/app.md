@@ -138,7 +138,7 @@ bằng
 </div>
 ```
 
-Let’s also add a navigation bar and footer to the layout. In the same file, under <body> add
+Cùng thêm một thanh điều hướng và 'footer' vào bố cục nữa nhé. Trong cùng tập tin đang mở, thêm vào dưới `<body>` 
 
 ```html
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
