@@ -104,7 +104,7 @@ git commit -m "type your commit message here"
 git push origin master
 ```
 
-## What’s next?
+## Làm gì tiếp theo?
 
 ### Trở thành một phần của Cộng đồng Mã nguồn Mở
 
