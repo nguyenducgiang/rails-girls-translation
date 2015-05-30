@@ -22,7 +22,9 @@ Trên trang Github của bạn, nhấn vào "new repo" ![screen shot 2013-06-01 
 
 In the command line–make sure you cd into your railgirls folder–and type:
 
+```shell
 git init
+```
 
 This initializes a git repository in your project
 
@@ -82,20 +84,18 @@ git commit -m "type your commit message here"
 
 git push origin master
 
-What’s next?
+## What’s next?
 
-Be a Part of the Open Source Community
+### Trở thành một phần của Cộng đồng Mã nguồn Mở
 
 Follow your fellow Rails Girls & coaches on GitHub
 Star or watch their projects
 Fork a repo, then clone and push changes to your fork. Share the changes with the originator by sending them a pull request!
 Create an issue on a project when you find a bug
 Explore other open source projects - search by programming languange or key word
-Learn more Git
 
-Check out trygit.org
-Use a Git Cheatsheet
-Look up Git Commands at git-scm.org
-This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License
+## Học thêm về Git
 
-Rails Girls · Crafted with excitement from Helsinki, Finland · Follow us on Twitter and Facebook
+- Check out trygit.org
+- Use a Git Cheatsheet
+- Look up Git Commands at git-scm.org
