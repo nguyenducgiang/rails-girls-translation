@@ -210,13 +210,13 @@ Please start the rails server now.
 
 Note: Some people might be using a second terminal to run the rails server continuously. If so you need to restart the Rails server process now. This is needed for the app to load the added library.
 
-Open app/models/idea.rb and under the line
+Mở `app/models/idea.rb` và dưới dòng
 
 ```ruby
 class Idea < ActiveRecord::Base
 ```
 
-add
+thêm
 
 ```ruby
 mount_uploader :picture, PictureUploader
