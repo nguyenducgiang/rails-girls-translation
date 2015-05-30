@@ -56,11 +56,11 @@ Sau đó nhập:
 git status
 ```
 
-This will list out all the files in your working directory.
+Lệnh này sẽ liệt kê tất cả các tập tin trong thư mục `railsgirls` của bạn.
 
-COACH: Talk about some of your favorite git commands
+**Huấn luyện viên**: Nói về một vài lệnh yêu thích trong Git.
 
-Then type:
+Sau đó nhập:
 
 ```shell
 git add .
@@ -68,7 +68,7 @@ git add .
 
 This adds in all of your files & changes so far to a staging area.
 
-Then type:
+Rồi nhập:
 
 ```shell
 git commit -m "first commit"
