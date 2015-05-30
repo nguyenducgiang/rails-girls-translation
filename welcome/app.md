@@ -205,7 +205,10 @@ Hit CTRL-C in the terminal to quit the server.
 
 In the terminal run:
 
+```shell
 bundle
+```
+
 Now we can generate the code for handling uploads. In the terminal run:
 
 ```shell
@@ -276,7 +279,7 @@ Now refresh your browser to see what changed.
 
 Open http://localhost:3000 (or your preview url, if you are using a cloud service). It still shows the “Welcome aboard” page. Let’s make it redirect to the ideas page.
 
-Open config/routes.rb and after the first line add
+Mở `config/routes.rb` và thêm vào sau dòng đầu tiên
 
 ```ruby
 root :to => redirect('/ideas')
@@ -292,7 +295,10 @@ Rails 3 users: You will need to delete the index.html from the /public/ folder f
 
 Lets add a static page to our app that will hold information about the author of this application — you!
 
+```shell
 rails generate controller pages info
+```
+
 This command will create you a new folder under app/views called /pages and under that a file called info.html.erb which will be your info page.
 
 It also adds a new simple route to your routes.rb.
