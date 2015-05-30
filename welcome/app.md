@@ -20,4 +20,7 @@
 
 ### Chú ý
 
-It is important that you select the instructions specific to your operating system - the commands you need to run on a Windows computer are slightly different to Mac or Linux. If you’re having trouble check the Operating System switcher at the bottom of the commands. In case you’re using a cloud service (e.g. nitrous), you need to run the Linux commands even if you are on a Windows computer.
+Bạn cần chú ý lựa chọn chỉ dẫn chính xác cho hệ điều hành của mình - các lệnh cần chạy trên Windows sẽ khác một chút so với Mac và Linux. Lưu ý những chỗ có chú thích riêng cho Windows. Nếu bạn dùng một dịch-vụ đám-mây (như Nitrous), bạn cần chạy các lệnh cho Linux ngay cả khi bạn đang dùng máy tính chạy trên Windows.
+
+
+
