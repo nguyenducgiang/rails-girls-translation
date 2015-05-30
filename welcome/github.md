@@ -26,7 +26,7 @@ Trong terminal, hãy chắc chắn bạn đã `cd` vào thư mục `railsgirls` 
 git init
 ```
 
-This initializes a git repository in your project
+Lệnh này sẽ khởi tạo một git repository trong dự án của bạn.
 
 Note: If you’ve already done the Heroku guide, then you’ve already initialized a git repository & you can move on to the next steps.
 
