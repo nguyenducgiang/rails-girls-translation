@@ -191,7 +191,7 @@ In case your Terminal shows you an error message that sort of implies there is s
 
 Chúng ta cần cài đặt thêm 1 phần mềm để có thể tải lên tập tin trong Rails.
 
-Open Gemfile in the project directory using your text editor and under the line
+Mở Gemfile trong thư mục của dự án bằng trình soạn thảo và dưới dòng
 
 ```ruby
 gem 'sqlite3'
