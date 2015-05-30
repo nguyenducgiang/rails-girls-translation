@@ -76,7 +76,7 @@ git commit -m "first commit"
 
 This commits all of your files, adding the message “first commit”
 
-Next type:
+Tiếp theo nhập:
 
 ```shell
 git remote add origin https://github.com/username/rails-girls.git
