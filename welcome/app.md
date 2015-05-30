@@ -63,6 +63,7 @@ Nếu bạn chạy lệnh `ls` (`dir` cho Windows) ở đây, bạn sẽ thấy 
 rails server
 ```
 
+Truy cập vào địa chỉ http://localhost:3000 từ trình duyệt. Nếu bạn sử dụng dịch-vụ đám-mây (như nitrous), hãy sử dụng tính năng xem trước (xem chi tiết ở [hướng dẫn cài đặt](install.md#using-a-cloud-service)).
 
 
 
