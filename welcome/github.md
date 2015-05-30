@@ -94,9 +94,9 @@ git push -u origin master
 
 Lệnh này sẽ gửi các 'commit' của bạn tới nhánh "master" trên GitHub.
 
-Congratulations your app is on GitHub! Go check it out by going to the same url you used above: https://github.com/username/rails-girls (without the .git part)
+Chúc mừng bạn, ứng dụng của bạn đã ở trên GitHub! Hãy tới xem tại địa chỉ bạn vừa dùng ở trên: https://github.com/username/rails-girls (bỏ đuôi `.git`)
 
-If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
+Nếu muốn tiếp tục thay đổi các tập tin và đẩy chúng lên GitHub, bạn chỉ cần dùng 3 lệnh sau:
 
 ```shell
 git add .
