@@ -172,7 +172,7 @@ và trước `</body>`, thêm
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 ```
 
-Now let’s also change the styling of the ideas table. Open `app/assets/stylesheets/application.css` and at the bottom add
+Now let’s also change the styling of the ideas table. Mở `app/assets/stylesheets/application.css` và thêm vào phía dưới cùng:
 
 ```css
 body { padding-top: 100px; }
@@ -187,9 +187,9 @@ In case your Terminal shows you an error message that sort of implies there is s
 
 **Huấn luyện viên**: Nói một chút về CSS và bố cục trang web.
 
-## 4. Adding picture uploads
+## 4. Thêm chức năng tải ảnh lên
 
-We need to install a piece of software to let us upload files in Rails.
+Chúng ta cần cài đặt thêm 1 phần mềm để có thể tải lên tập tin trong Rails.
 
 Open Gemfile in the project directory using your text editor and under the line
 
