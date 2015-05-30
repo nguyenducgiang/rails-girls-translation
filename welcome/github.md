@@ -84,7 +84,9 @@ git remote add origin https://github.com/username/rails-girls.git
 
 Your GitHub Repository page will list the repository URL, so feel free to copy and paste from there, rather than typing it in manually. You can copy and paste the link from your GitHub repository page by clicking the clipboard icon next to the URL.
 
-This creates a remote, or connection, named “origin” pointing at the GitHub repository you just created.
+*Trang GitHub Repository của bạn sẽ có URL của repository, nên hãy sao chép từ đó và dán vào terminal thay vì nhập bằng tay. Bạn có thể sao chép URL một cách nhanh gọn bằng cách nhấn vào biểu tượng clipboard kế bên URL.*
+
+Lệnh trên sẽ tạo ra một kết nối, với tên "origin" trỏ đến GitHub repository bạn vừa tạo ở trên.
 
 Sau đó nhập:
 
