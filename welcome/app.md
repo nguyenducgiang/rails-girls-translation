@@ -77,9 +77,9 @@ $
 Choose your operating system: Windows | Other
 When the command prompt is not visible you cannot execute new commands. If you try running cd or another command it will not work. To return to the normal command prompt:
 
-Hit CTRL-C in the terminal to quit the server.
+Nhấn `CTRL-C` trong terminal để tắt server.
 
-Coach: Explain what each command does. What was generated? What does the server do?
+**Huấn luyện viên**: Giải thích ý nghĩa của mỗi lệnh. Những gì được tạo ra? Server làm những gì?
 
 ## 2. Create Idea scaffold
 
