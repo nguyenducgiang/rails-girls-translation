@@ -66,7 +66,7 @@ Sau đó nhập:
 git add .
 ```
 
-This adds in all of your files & changes so far to a staging area.
+Lệnh này sẽ thêm tất cả các tập tin và thay đổi từ đầu tới giờ vào khu vực 'staging'.
 
 Rồi nhập:
 
@@ -74,7 +74,7 @@ Rồi nhập:
 git commit -m "first commit"
 ```
 
-This commits all of your files, adding the message “first commit”
+Lệnh này sẽ 'commit' (ghi nhận các thay đổi) tất cả các tập tin ở trong khu vực "staging" với thông điệp đính kèm là "first commit".
 
 Tiếp theo nhập:
 
