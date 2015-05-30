@@ -11,14 +11,14 @@
 - Nếu chưa có, tải Git [ở đây](http://git-scm.com/downloads). Sau đó, cài đặt hồ sơ Git cục bộ - trong terminal:
   - Nhập `git config --global user.name "tên-của-bạn"`
   - Nhập `git config --global user.email "email-của-bạn"`
-  - To check if Git is already config-ed you can type git config --list
+  - Để kiểm tra xem Git đã được cấu hình hay chưa, chạy lệnh `git config --list`
 - Tạo tài khoản miễn phí trên [GitHub](https://github.com/) hoặc đăng nhập nếu bạn đã có tài khoản
 
-**Huấn luyện viên**: Nói một chút về git, quản lý phiên bản và mã nguồn mở.
+**Huấn luyện viên**: Nói một chút về Git, quản lý phiên bản và mã nguồn mở.
 
 ## Đẩy ứng dụng của bạn lên Github sử dụng dòng lệnh
 
-On your GitHub profile click “new repo” screen shot 2013-06-01 at 12 38 50 pm give it a name (example: rails-girls), brief description, choose the “public” repo option, and click “create repository”.
+Trên trang Github của bạn, nhấn vào "new repo" ![screen shot 2013-06-01 at 12 38 50 pm](https://f.cloud.github.com/assets/2623954/595307/eb70c6cc-caf2-11e2-9d2d-60deb31ac049.png), đặt tên cho repo (ví dụ: rails-girls), mô tả ngắn gọn, để tùy chọn "public" và nhấn vào "create repository".
 
 In the command line–make sure you cd into your railgirls folder–and type:
 
