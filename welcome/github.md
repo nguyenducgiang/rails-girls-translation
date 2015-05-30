@@ -1,4 +1,4 @@
-# Đẩy ứng dụng của bạn lên Github
+# Đẩy ứng dụng của bạn lên GitHub
 
 *Viết bởi Alyson La, [@realalysonla](https://www.twitter.com/realalysonla)*
 
@@ -18,7 +18,7 @@
 
 ## Đẩy ứng dụng của bạn lên Github sử dụng dòng lệnh
 
-Trên trang Github của bạn, nhấn vào "new repo" ![screen shot 2013-06-01 at 12 38 50 pm](https://f.cloud.github.com/assets/2623954/595307/eb70c6cc-caf2-11e2-9d2d-60deb31ac049.png), đặt tên cho repo (ví dụ: rails-girls), mô tả ngắn gọn, để tùy chọn "public" và nhấn vào "create repository".
+Trên trang GitHub của bạn, nhấn vào "new repo" ![screen shot 2013-06-01 at 12 38 50 pm](https://f.cloud.github.com/assets/2623954/595307/eb70c6cc-caf2-11e2-9d2d-60deb31ac049.png), đặt tên cho repo (ví dụ: rails-girls), mô tả ngắn gọn, để tùy chọn "public" và nhấn vào "create repository".
 
 In the command line–make sure you cd into your railgirls folder–and type:
 
@@ -92,7 +92,7 @@ Sau đó nhập:
 git push -u origin master
 ```
 
-Lệnh này sẽ gửi các 'commit' của bạn tới nhánh "master" trên Github.
+Lệnh này sẽ gửi các 'commit' của bạn tới nhánh "master" trên GitHub.
 
 Congratulations your app is on GitHub! Go check it out by going to the same url you used above: https://github.com/username/rails-girls (without the .git part)
 
@@ -108,7 +108,7 @@ git push origin master
 
 ### Trở thành một phần của Cộng đồng Mã nguồn Mở
 
-- Theo đuôi những người cùng tham gia Rails Girls với bạn và các huấn luyện viên trên Gihub
+- Theo đuôi những người cùng tham gia Rails Girls với bạn và các huấn luyện viên trên GiHub
 - 'Star' (đánh dấu sao) hoặc 'watch' (đánh dấu theo dõi) các dự án của họ
 - ['Fork'](https://help.github.com/articles/fork-a-repo) một 'repo', sau đó 'clone' và đẩy các thay đổi vào bản 'fork' của bạn. Chia sẻ các thay đổi này với người sở hữu dự án bằng cách gửi họ một 'pull request'!
 - Tạo một 'issue' trên một dự án khi bạn phát hiện ra bug
