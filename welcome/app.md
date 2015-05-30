@@ -35,4 +35,34 @@ Trước hết, hãy mở terminal lên:
 
 Tiếp theo nhập các lệnh sau vào terminal:
 
+```shell
+mkdir projects
+```
+
+Bạn có thể xác nhận thư mục `projects` đã được tạo bằng cách chạy lệnh `ls` (`dir` cho Windows). Bạn có thể nhìn thấy tên thư mục `projects` hiện ra trên màn hình. Tiếp theo, bạn sẽ muốn chuyển thư mục hiện tại tới thư mục `projects` bằng lệnh:
+
+```shell
+cd projects
+```
+
+Bạn có thể xác nhận đang ở trong một thư mục rỗng bằng cách chạy lại lệnh `ls` (`dir` cho Windows). Bây giờ chúng ta sẽ khởi tạo một ứng dụng với tên là `railsgirls` với lệnh:
+
+```shell
+rails new railsgirls
+```
+
+Lệnh này sẽ tạo ra một ứng dụng mới trong thư mục `railsgirls`, vì thế chúng ta sẽ chuyển thư mục hiện tại tới ứng dụng Rails này bằng lệnh:
+
+```shell
+cd railsgirls
+```
+
+Nếu bạn chạy lệnh `ls` (`dir` cho Windows) ở đây, bạn sẽ thấy các thư mục như `app` hay `config`. Bạn có thể khởi động rails server ngay bây giờ với lệnh:
+
+```shell
+rails server
+```
+
+
+
 
