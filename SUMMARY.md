@@ -1,4 +1,4 @@
-# Summary
+# Mục lục
 
 ### Chào mừng tới Rails Girls!
 
