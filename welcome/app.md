@@ -69,7 +69,11 @@ You should see “Welcome aboard” page, which means that the generation of you
 
 Notice in this window the command prompt is not visible because you are now in the Rails server, the command prompt looks like this:
 
+```shell
 $
+```
+
+
 Choose your operating system: Windows | Other
 When the command prompt is not visible you cannot execute new commands. If you try running cd or another command it will not work. To return to the normal command prompt:
 
