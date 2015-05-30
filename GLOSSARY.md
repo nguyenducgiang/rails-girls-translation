@@ -3,6 +3,7 @@
 - app: ứng dụng
 - cloud service: dịch-vụ đám-mây
 - code files: các tệp mã
+- command line: dòng lệnh
 - command line tools: công-cụ dòng-lệnh
 - menu: trình đơn
 - open source: mã nguồn mở
