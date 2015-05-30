@@ -77,17 +77,23 @@ Hit CTRL-C in the terminal to quit the server.
 
 Coach: Explain what each command does. What was generated? What does the server do?
 
-2.Create Idea scaffold
+## 2. Create Idea scaffold
 
 We’re going to use Rails’ scaffold functionality to generate a starting point that allows us to list, add, remove, edit, and view things; in our case ideas.
 
 Coach: What is Rails scaffolding? (Explain the command, the model name and related database table, naming conventions, attributes and types, etc.) What are migrations and why do you need them?
 
+```shell
 rails generate scaffold idea name:string description:text picture:string
+```
+
 The scaffold creates new files in your project directory, but to get it to work properly we need to run a couple of other commands to update our database and restart the server.
 
+```shell
 bin/rake db:migrate
 rails server
+```
+
 Choose your operating system: Windows | Other
 Open http://localhost:3000/ideas in your browser. Cloud service (e.g. nitrous) users need to append ‘/ideas’ to their preview url instead (see installation guide).
 
@@ -95,7 +101,7 @@ Click around and test what you got by running these few command-line commands.
 
 Hit CTRL-C to quit the server again when you’ve clicked around a little.
 
-3.Design
+## 3. Thiết kế
 
 Coach: Talk about the relationship between HTML and Rails. What part of views is HTML and what is Embedded Ruby (ERB)? What is MVC and how does this relate to it? (Models and controllers are responsible for generating the HTML views.)
 
