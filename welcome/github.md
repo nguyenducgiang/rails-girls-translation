@@ -106,11 +106,11 @@ git push origin master
 
 ### Trở thành một phần của Cộng đồng Mã nguồn Mở
 
-Follow your fellow Rails Girls & coaches on GitHub
-Star or watch their projects
-Fork a repo, then clone and push changes to your fork. Share the changes with the originator by sending them a pull request!
-Create an issue on a project when you find a bug
-Explore other open source projects - search by programming languange or key word
+- Theo đuôi những người cùng tham gia Rails Girls với bạn và các huấn luyện viên trên Gihub
+- 'Star' (đánh dấu sao) hoặc 'watch' (đánh dấu theo dõi) các dự án của họ
+- Fork a repo, then clone and push changes to your fork. Share the changes with the originator by sending them a pull request!
+- Tạo một 'issue' trên một dự án khi bạn phát hiện ra bug
+- Khám phá các dự án mã nguồn mở khác - tìm kiếm theo ngôn ngữ lập trình hay từ khóa
 
 ### Học thêm về Git
 
