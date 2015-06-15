@@ -300,13 +300,13 @@ root :to => redirect('/ideas')
 
 Test the change by opening the root path (that is, http://localhost:3000/ or your preview url) in your browser.
 
-Coach: Talk about routes, and include details on the order of routes and their relation to static files.
+**Huấn luyện viên**: Talk about routes, and include details on the order of routes and their relation to static files.
 
-Rails 3 users: You will need to delete the index.html from the /public/ folder for this to work.
+Với người-dùng Rails 3: Bạn cần xóa `index.html` trong thư mục `/public/` để cấu hình bên trên chạy đúng.
 
 ## Tạo trang tĩnh cho ứng dụng
 
-Lets add a static page to our app that will hold information about the author of this application — you!
+Hãy cùng thêm một trang tĩnh vào ứng dụng của chúng ta để giữ các thông tin về tác giả của ứng dụng - chính là bạn!
 
 ```shell
 rails generate controller pages info
