@@ -179,7 +179,7 @@ và trước `</body>`, thêm
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 ```
 
-Now let’s also change the styling of the ideas table. Mở `app/assets/stylesheets/application.css` và thêm vào phía dưới cùng:
+Bây giờ, chúng ta hãy cùng thay đổi style của bảng ideas. Mở `app/assets/stylesheets/application.css` và thêm vào phía dưới cùng:
 
 ```css
 body { padding-top: 100px; }
@@ -254,9 +254,9 @@ thành
 <%= f.file_field :picture %>
 ```
 
-Sometimes, you might get an TypeError: can’t cast ActionDispatch::Http::UploadedFile to string.
+Thỉnh thoảng bạn sẽ gặp phải lỗi `TypeError: can’t cast ActionDispatch::Http::UploadedFile to string`.
 
-If this happens, in file app/views/ideas/_form.html.erb change the line
+Trong trường hợp đó, thay đổi dòng sau trong tệp tin `app/views/ideas/_form.html.erb change the line`
 
 ```html
 <%= form_for(@idea) do |f| %>
@@ -270,6 +270,8 @@ thành
 
 In your browser, add new idea with a picture. When you upload a picture it doesn’t look nice because it only shows a path to the file, so let’s fix that.
 
+Trên trình duyệt, thêm idea mới kèm theo một hình ảnh. Khi 
+
 Mở `app/views/ideas/show.html.erb` và đổi
 
 ```html
@@ -282,7 +284,7 @@ thành
 <%= image_tag(@idea.picture_url, :width => 600) if @idea.picture.present? %>
 ```
 
-Now refresh your browser to see what changed.
+Bây giờ hãy làm mới trình duyệt để xem các thay đổi.
 
 **Huấn luyện viên**: Nói một chút về HTML.
 
