@@ -210,11 +210,11 @@ thêm
 gem 'carrierwave'
 ```
 
-Coach: Explain what libraries are and why they are useful. Describe what open source software is.
+**Huấn luyện viên**: Giải thích thư viện là gì, tại sao chúng hữu dụng. Diễn giải về phần mềm mã nguồn mở.
 
-Hit CTRL-C in the terminal to quit the server.
+Nhấn `CTRL-C` trong terminal để thoát khỏi server.
 
-In the terminal run:
+Trong terminal chạy:
 
 ```shell
 bundle
