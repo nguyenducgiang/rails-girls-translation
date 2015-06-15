@@ -65,7 +65,7 @@ rails server
 
 Truy cập vào địa chỉ http://localhost:3000 từ trình duyệt. Nếu bạn sử dụng dịch-vụ đám-mây (như nitrous), hãy sử dụng tính năng xem trước (xem chi tiết ở [hướng dẫn cài đặt](install.md#using-a-cloud-service)).
 
-You should see “Welcome aboard” page, which means that the generation of your new app worked correctly.
+Bạn sẽ thấy trang "Welcome aboard", thể hiện rằng việc khởi tạo ứng dụng hoạt động đúng như mong muốn.
 
 Notice in this window the command prompt is not visible because you are now in the Rails server, the command prompt looks like this:
 
@@ -73,9 +73,9 @@ Notice in this window the command prompt is not visible because you are now in t
 $
 ```
 
-
 Choose your operating system: Windows | Other
-When the command prompt is not visible you cannot execute new commands. If you try running cd or another command it will not work. To return to the normal command prompt:
+
+Khi command prompt không hiển thị, bạn không thể thực hiện các lệnh mới. Nếu bạn thử chạy `cd` hay một lệnh khác, nó sẽ không chạy. Để đưa command prompt về trạng thái bình thường:
 
 Nhấn `CTRL-C` trong terminal để tắt server.
 
