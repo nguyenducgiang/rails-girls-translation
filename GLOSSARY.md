@@ -12,6 +12,7 @@
 - open source: mã nguồn mở
 - preview: xem trước
 - preview url: địa chỉ xem trước
+- refresh: làm mới
 - static page: trang tĩnh
 - text editor: trình soạn thảo (văn bản)
 - upload: tải lên
