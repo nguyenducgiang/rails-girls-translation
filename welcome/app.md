@@ -105,7 +105,8 @@ rails server
 ```
 
 Choose your operating system: Windows | Other
-Open http://localhost:3000/ideas in your browser. Cloud service (e.g. nitrous) users need to append ‘/ideas’ to their preview url instead (see installation guide).
+
+Truy cập http://localhost:3000/ideas trên trình duyệt. Người dùng dịch-vụ đám-mây (vd nitrous) cần thêm `/ideas` vào sau địa chỉ xem trước (xem [hướng dẫn cài đặt](install.md#using-a-cloud-service)).
 
 Click around and test what you got by running these few command-line commands.
 
