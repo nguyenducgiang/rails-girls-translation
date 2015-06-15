@@ -67,13 +67,19 @@ Truy cập vào địa chỉ http://localhost:3000 từ trình duyệt. Nếu b�
 
 Bạn sẽ thấy trang "Welcome aboard", thể hiện rằng việc khởi tạo ứng dụng hoạt động đúng như mong muốn.
 
-Notice in this window the command prompt is not visible because you are now in the Rails server, the command prompt looks like this:
+Để ý thấy trên cửa sổ terminal không còn nhìn thấy command prompt vì bạn đang chạy Rails server, command prompt bây giờ trông như sau:
+
+(trên Windows)
+
+```shell
+>
+```
+
+(trên Unix)
 
 ```shell
 $
 ```
-
-Choose your operating system: Windows | Other
 
 Khi command prompt không hiển thị, bạn không thể thực hiện các lệnh mới. Nếu bạn thử chạy `cd` hay một lệnh khác, nó sẽ không chạy. Để đưa command prompt về trạng thái bình thường:
 
