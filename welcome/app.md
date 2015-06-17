@@ -87,7 +87,7 @@ Nhấn `CTRL-C` trong terminal để tắt server.
 
 **Huấn luyện viên**: Giải thích ý nghĩa của mỗi lệnh. Những gì được tạo ra? Server làm những gì?
 
-## 2. Create Idea scaffold
+## 2. Tạo scaffold cho Idea
 
 We’re going to use Rails’ scaffold functionality to generate a starting point that allows us to list, add, remove, edit, and view things; in our case ideas.
 
