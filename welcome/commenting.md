@@ -81,39 +81,39 @@ thêm
 
 Trong `app/controllers/ideas_controller.rb` thêm vào action `show` sau dòng
 
-{% highlight ruby %}
+```ruby
 @idea = Idea.find(params[:id])
-{% endhighlight %}
+```
 
 đoạn mã sau
 
-{% highlight ruby %}
+```ruby
 @comments = @idea.comments.all
 @comment = @idea.comments.build
-{% endhighlight %}
+```
 
 Mở `app/views/comments/_form.html.erb` và sau đoạn
 
-{% highlight erb %}
+```erb
   <div class="field">
     <%= f.label :body %><br />
     <%= f.text_area :body %>
   </div>
-{% endhighlight %}
+```
 
 thêm dòng sau
 
-{% highlight erb %}
+```erb
 <%= f.hidden_field :idea_id %>
-{% endhighlight %}
+```
 
 sau đó, xóa
 
-{% highlight erb %}
+```erb
 <div class="field">
   <%= f.label :idea_id %><br>
   <%= f.number_field :idea_id %>
 </div>
-{% endhighlight %}
+```
 
 Vậy là xong. Bây giờ bạn có thể xem ý-tưởng (idea) bạn đã thêm vào ứng dụng trước đây, ở đó bạn sẽ thấy các bình luận cũ và biểu mẫu để thêm bình-luận (comment) mới.
