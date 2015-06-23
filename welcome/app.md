@@ -333,12 +333,12 @@ Now you can open the file app/views/pages/info.html.erb and add information abou
 
 Guide 0: Handy cheatsheet for Ruby, Rails, console etc.
 Guide 1: Add commenting by Janika Liiv
-Guide 2: Put your app online with Heroku by Terence Lee / Put your app online with OpenShift by Katie Miller / Put your app online with Shelly Cloud / Put your app online with anynines / Put your app online with Trucker.io
+Guide 2: Put your app online with Heroku by Terence Lee
 Guide 3: Create thumbnail images for the uploads by Miha Filej
 Guide 4: Add design using HTML & CSS by Alex Liao
 Guide 5: Add Authentication (user accounts) with Devise by Piotr Steininger
 Guide 6: Adding profile pictures with Gravatar
 Guide 7: Test your app with RSpec
-Guide 8: Continuous Deployment with Travis-CI / Continuous Deployment with Codeship
+Guide 8: Continuous Deployment with Codeship
 Guide 9: Go through additional explanations for the App by Lucy Bain
 
